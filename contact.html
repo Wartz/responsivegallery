@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>33 Esternay Lane</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        <meta name="description" content="33 Esternay Lane" />
+        <meta name="keywords" content="33 Esternay Lane" />
+		<meta name="author" content="Michael Schlimmer" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.1/pure-min.css">
+        <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js"></script>
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+    </head>
+    <body>
+		<div class="container">
+			<div class="header">
+				<div class="clr"></div>
+                <div class="pure-u-1 pure-menu pure-menu-open pure-menu-horizontal">
+                    <span class="pure-menu-heading">33 Esternay Lane</span>
+                    <ul id="std-menu-items">
+                        <li class="pure-menu-selected"><a href="/">Home</a></li>
+                        <li><a href="description.html">Description</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="directions.html">Directions</a></li>
+                    </ul>
+                </div>
+			</div><!-- header -->
+			
+			<div class="content">
+				<h1>33 Esternay Lane <span></span></h1>
+					<div class="contentbox">
+						<ul>
+							<li>Name</li>
+							<li>Address</li>
+							<li>Phone Number</li>
+						</ul>
+					</div>
+				<p class="sub">A footer, contact info, etc</p>
+			</div><!-- content -->
+		</div><!-- container -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+    </body>
+</html>
