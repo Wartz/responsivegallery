@@ -84,3 +84,10 @@ h1 span{
 		float:none;
 	}
 }
+
+.contentbox {
+	
+	display: block;
+	width: 650px;
+	margin: auto;
+}
